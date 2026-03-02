@@ -1,0 +1,110 @@
+<!-- contact.html -->
+<!doctype html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Matteo De Rosa</title>
+        <meta name="description" content="Web App Craftsman" />
+
+        <meta property="og:title" content="Matteo De Rosa" />
+        <meta property="og:description" content="Web App Craftsman" />
+        <meta property="og:image" content="https://matteeoderosa.it/og.png" />
+
+        <link rel="icon" href="../favicon.ico" />
+        <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap" />
+
+        <link rel="stylesheet" href="../css/styles.css" />
+        <script src="../js/script.js" defer></script>
+    </head>
+
+    <body>
+        <main class="page">
+            <div class="frame">
+                <aside class="sidebar">
+                    <div class="profile">
+                        <div class="logo" aria-label="logo">{m}</div>
+
+                        <div class="who">
+                            <p class="name">Matteo De Rosa</p>
+                            <p class="role">Web App Craftsman</p>
+
+                            <p class="location">
+                                <span class="pin" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </span>
+                                Grosseto, GR (Italy)
+                            </p>
+                        </div>
+                    </div>
+
+                    <p class="tagline">Crafting Web Apps; <br />sharing the journey online.</p>
+
+                    <nav class="nav" aria-label="Site sections">
+                        <a class="nav-link" data-route="/" href="../index.html">about.md</a>
+                        <a class="nav-link" data-route="/skills" href="./skills.html">skills.md</a>
+                        <a class="nav-link" data-route="/projects" href="./projects.html">projects.md</a>
+                        <a class="nav-link" data-route="/contact" href="./contact.html">contact.md</a>
+                    </nav>
+
+                    <div class="sidebar-bottom">
+                        <div class="terminal-box" aria-label="Command output">
+                            <p class="terminal-cmd">$ npx matteeoderosa</p>
+
+                            <div class="terminal-lines" id="bootLines" aria-live="polite">
+                                <p class="boot-line" data-delay="0">Initializing...</p>
+                                <p class="boot-line" data-delay="650">Connected to matteeoderosa.it</p>
+                                <p class="boot-line" data-delay="1300">Links loaded. Standing by...</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <section class="content">
+                    <div class="content-header">$ cat contact.md</div>
+
+                    <div class="content-body">
+                        <p class="motto">Contact</p>
+
+                        <p>Puoi contattarmi attraverso i seguenti canali:</p>
+
+                        <p>
+                            <span class="k">Email:</span>
+                            <a class="link" href="mailto:matteeoderosa@gmail.com">matteeoderosa@gmail.com</a>
+                        </p>
+
+                        <p>
+                            <span class="k">Website:</span>
+                            <a class="link" href="https://matteeoderosa.it" target="_blank" rel="noopener noreferrer"> matteeoderosa.it </a>
+                        </p>
+
+                        <p>
+                            <span class="k">GitHub:</span>
+                            <a class="link" href="https://github.com/derteo" target="_blank" rel="noopener noreferrer"> github.com/derteo </a>
+                        </p>
+
+                        <p>
+                            <span class="k">Instagram:</span>
+                            <a class="link" href="https://instagram.com/matteeoderosa" target="_blank" rel="noopener noreferrer"> instagram.com/matteeoderosa </a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <footer class="footer">
+                <span>
+                    Built by
+                    <a class="link" href="https://matteeoderosa.it" target="_blank" rel="noopener noreferrer">Matteo De Rosa &copy;</a>
+                </span>
+            </footer>
+        </main>
+    </body>
+</html>
